@@ -5,6 +5,7 @@
   <script type="text/javascript"></script></div>
 <span>
   <ion-button class="btn text-uppercase btn-info" type="submit" (click)="onSubmit(pair)" [hidden]="subbed">Sign up for Alerts</ion-button>
+  <ion-button class="btn text-uppercase btn-info" type="submit" (click)="unsubscribe(pair)" [hidden]="!subbed">Unsubscribe from Alerts</ion-button>
 </span>
 
 

@@ -57,5 +57,11 @@ export class TradingviewComponent implements OnInit, AfterViewInit {
         window.location.reload();
         return this.authService.signUpAlerts(new Signup(this.cookieService.get('emailAddress'), pair)).subscribe();
     }
+
+    unsubscribe(sub: string) {
+        this.authService.unsub(this.cookieService.get('emailAddress'), sub)
+            .subscribe(res => console.log(res));
+        window.location.reload();
+    }
 }
 

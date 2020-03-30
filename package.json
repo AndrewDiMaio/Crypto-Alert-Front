@@ -1,6 +1,9 @@
 {
   "name": "crypto",
   "version": "0.0.1",
+  "engines": {
+    "node": "12.16.0"
+  },
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
