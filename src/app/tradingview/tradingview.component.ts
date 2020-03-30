@@ -17,7 +17,7 @@ export class TradingviewComponent implements OnInit, AfterViewInit {
     public cookieService: CookieService;
     private appComponent: AppComponent;
     @Input() public pair: string;
-    private subbed = false;
+    public subbed = false;
 
   constructor(authService: AuthService, appComponent: AppComponent, cookieService: CookieService) {
       this.authService = authService;

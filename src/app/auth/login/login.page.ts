@@ -9,9 +9,9 @@ import {User} from '../user';
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage implements OnInit {
-  private user: User;
-  private returnUser: User;
-  private newUser = false;
+  public user: User;
+  public returnUser: User;
+  public newUser = false;
 
   constructor(private  authService: AuthService, public cookieService: CookieService) {
     this.user = new User();

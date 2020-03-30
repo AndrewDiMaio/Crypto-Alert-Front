@@ -39,7 +39,7 @@
                 "input": "src/global.scss"
               }
             ],
-            "scripts": [{"start": "node server.js"}]
+            "scripts": []
           },
           "configurations": {
             "production": {

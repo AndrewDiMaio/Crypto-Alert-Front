@@ -14,7 +14,7 @@ import {AuthService} from './auth/auth.service';
 export class AppComponent implements OnInit {
   public selectedIndex = 1;
   public username = 'must login';
-  private loginstatus = false;
+  public loginstatus = false;
   public subs: string[] = [];
 
   public appPages = [
