@@ -1,0 +1,21 @@
+ion-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ion-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ion-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --background: #fbf6ff;
+  --color: #320052;
+}
+
+ion-button{
+  --background: #062f77;
+}
