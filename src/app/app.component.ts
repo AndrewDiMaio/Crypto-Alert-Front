@@ -78,7 +78,7 @@ export class AppComponent implements OnInit {
 
   submit(title: string) {
     console.log(title);
-    window.location.href = 'http://localhost:8100/folder/' + title;
+    window.location.href = 'https://crypto-final-front.herokuapp.com/folder/' + title;
   }
 
   login() {
