@@ -36,10 +36,10 @@
     "@angular/compiler-cli": "~8.2.14",
     "@angular/language-service": "~8.2.14",
     "@ionic/angular-toolkit": "^2.3.3",
-    "@types/node": "~8.9.4",
+    "@types/node": "~12.10.0",
     "codelyzer": "^5.0.0",    
      "protractor": "~5.4.0",
-    "ts-node": "~12.10.0",
+    "ts-node": "~7.0.0",
     "tslint": "~5.15.0"
   },
   "devDependencies": {
